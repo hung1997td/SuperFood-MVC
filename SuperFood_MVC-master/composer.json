@@ -1,0 +1,21 @@
+{
+    "autoload":{
+        "psr-4":{
+            "App\\":"app"
+        },
+        "files": [
+            "app/commons/helpers.php"
+        ]
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "jenssegers/blade": "^1.4",
+        "vlucas/phpdotenv": "^5.2",
+        "illuminate/database": "^8.13",
+        "phpmailer/phpmailer": "^6.3"
+    },
+
+    "config":{
+        "optimize-autoloader": true
+    }
+}
